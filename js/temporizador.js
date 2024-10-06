@@ -3,7 +3,7 @@ function iniciarTemporizador(intervalo, temporizador) {
         clearInterval(intervalo)
     }
 
-    temporizador = 5;
+    temporizador = 60;
     document.getElementById('temporizador').textContent = `Expira em: ${temporizador}s`
 
     intervalo = setInterval(() => {

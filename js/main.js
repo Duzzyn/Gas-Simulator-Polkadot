@@ -3,7 +3,7 @@ import iniciarTemporizador from './temporizador.js';
 
 let cripto = document.getElementById("moeda")
 let contador = 0;
-let temporizador = 5;
+let temporizador = 60;
 let intervalo;
 
 document.getElementById('calcular').addEventListener('click', function () {
